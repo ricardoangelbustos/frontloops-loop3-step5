@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Roboto", sans-serif;
+}
+.container{
+    background-color: #424d84;
+    width: 30%;
+    height: 325px;
+    margin: 140px auto;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.months{
+    width: 105%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: relative;
+    right: 10px;
+}
+.jun{
+    background-color: #aaafc8;
+    width: 5%;
+    height: 110px;
+    border-radius: 4px;
+}
+.jul{
+    background-color: #aaafc8;
+    width: 5%;
+    height: 140px;
+    border-radius: 4px;
+}
+.aug{
+    background-color: #aaafc8;
+    width: 5%;
+    height: 70px;
+    border-radius: 4px;
+}
+.sep{
+    background-color: #aaafc8;
+    width: 5%;
+    height: 40px;
+    border-radius: 4px;
+}
+.oct{
+    background-color: #aaafc8;
+    width: 5%;
+    height: 80px;
+    border-radius: 4px;
+}
+.nov{
+    background-color: #3398dc;
+    width: 5%;
+    height: 100px;
+    border-radius: 4px;
+}
+.dec{
+    background-color: #aaafc8;
+    width: 5%;
+    height: 40px;
+    border-radius: 4px;
+}
+.jan{
+    background-color: #aaafc8;
+    width: 5%;
+    height: 140px;
+    border-radius: 4px;
+}
+.feb{
+    background-color: #aaafc8;
+    width: 5%;
+    height: 90px;
+    border-radius: 4px;
+}
+.mar{
+    background-color: #aaafc8;
+    width: 5%;
+    height: 100px;
+    border-radius: 4px;
+}
+.names{
+    width: 105%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    right: 10px;
+}
+.names span{
+    font-size: 15px;
+    font-weight: 500;
+    color: #aaafc8;
+}
+.expense{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px 0 10px;
+    box-sizing: border-box;
+}
+.cake{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5%;
+    box-sizing: border-box;
+}
+.graphic svg{
+    border-radius: 50%;
+}
+.graphic circle{
+    fill: transparent;
+}
+.graphic text{
+    fill: #fafcfd;
+    font-size: 3.5px;
+    font-size: 500;
+}
+.expense span{
+    font-size: 15px;
+    color: #aaafc8;
+    font-weight: 500;
+}
+.expense h3{
+    font-size: 15px;
+    font-weight: 500;
+    color: #fafcfd;
+}
+.update{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.bonus{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+@media (max-width: 1285px){
+    .container{
+        width: 35%;
+    }
+}
+@media (max-width: 1093px){
+    .container{
+        width: 40%;
+    }
+}
+@media (max-width: 961px){
+    .container{
+        width: 45%;
+        height: 350px;
+    }
+}
+@media (max-width: 856px){
+    .container{
+        width: 50%;
+    }
+    
+}
+@media (max-width: 768px){
+    .container{
+        margin: 100px auto;
+        width: 65%;
+        height: 450px;
+    }
+}
+@media (max-width: 591px){
+    .container{
+        width: 75%;
+    }
+}
+@media (max-width: 521px){
+    .container{
+        width: 85%;
+    }
+}
+@media (max-width: 451px){
+    .container{
+        width: 95%;
+    }
+}
+@media (max-width: 404px){
+    .expense{
+        padding: 0 35px 0 0;
+    }
+}
+@media (max-width: 345px){
+    .expense{
+        padding: 0 10px 0 0;
+    }
+}
